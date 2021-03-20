@@ -2,8 +2,7 @@
 
 #### ⚠️ Pushed to `master`
 
-- init-commit ([@arthurhovhannisyan31](https://github.com/arthurhovhannisyan31))
-- test ([@arthurhovhannisyan31](https://github.com/arthurhovhannisyan31))
+- test_storybook init release
 
 #### Authors: 1
 
