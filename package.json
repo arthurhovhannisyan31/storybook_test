@@ -1,0 +1,75 @@
+{
+  "name": "@arthurhovhannisyan31/storybook_test",
+  "version": "0.1.1",
+  "private": false,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@storybook/addon-knobs": "^6.1.21",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
+    "storybook": "start-storybook -p 6006 -s ./public",
+    "build-storybook": "build-storybook -s ./public",
+    "chromatic": "npx chromatic public --storybook-build-dir public --project-token a94a9259a924"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.20",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/node-logger": "^6.1.17",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.17",
+    "@types/node-fetch": "^2.5.8",
+    "auto": "^10.21.0",
+    "chromatic": "^5.6.3",
+    "cross-env": "^7.0.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
+  "description": "(Test Storybook):Test Storybook design system",
+  "main": "dist/index.js",
+  "repository": "https://github.com/arthurhovhannisyan31/storybook_test.git",
+  "author": "arthurhovhannisyan31 <arthurhovhannisyan31@gmail.com>",
+  "license": "MIT"
+}

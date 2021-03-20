@@ -1,0 +1,1 @@
+npx chromatic --project-token=a94a9259a924 --output-dir public --storybook-build-dir public
