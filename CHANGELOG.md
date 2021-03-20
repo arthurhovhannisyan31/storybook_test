@@ -1,8 +1,9 @@
-# v0.1.1 (Sat Mar 20 2021)
+# v0.1.3 (Sat Mar 20 2021)
 
 #### ⚠️ Pushed to `master`
 
-- Initial release of test-storybook
+- init-commit ([@arthurhovhannisyan31](https://github.com/arthurhovhannisyan31))
+- test ([@arthurhovhannisyan31](https://github.com/arthurhovhannisyan31))
 
 #### Authors: 1
 
