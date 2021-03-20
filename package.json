@@ -24,7 +24,8 @@
     "build": "cross-env BABEL_ENV=production babel src -d dist",
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook -s ./public",
-    "chromatic": "npx chromatic public --storybook-build-dir public --project-token a94a9259a924"
+    "chromatic": "npx chromatic public --storybook-build-dir public --project-token a94a9259a924",
+    "release": "auto shipit --base-branch=master"
   },
   "eslintConfig": {
     "extends": [
